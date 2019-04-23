@@ -1,0 +1,70 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.person {
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    position: relative;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+.person1 {
+    background-image: url("images/person1.jpg");
+
+}
+.person2 {
+    background-image: url("images/person2.jpg");
+}
+.person3 {
+    background-image: url("images/person3.jpg");
+}
+.social {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("images/social_icons.png");
+}
+.vk {
+    background-position: -60px 30px;
+    position: absolute;
+    right: 121px;
+    top: 4px;
+}
+.twitter {
+    background-position: -30px 30px;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+}
+.fb {
+    background-position: 0px 30px;
+    position: absolute;
+    top: 60px;
+    left: -15px;
+}
+.sms {
+    background-position: -90px 30px;
+    position: absolute;
+    bottom: -10px;
+    right: 60px;
+}
+.vk:hover {
+    background-position: -60px 60px;
+}
+.twitter:hover {
+    background-position: -30px 60px;
+}
+.fb:hover {
+    background-position: 0px 60px;
+}
+.sms:hover {
+    background-position: -90px 60px;
+}
