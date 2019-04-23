@@ -18,7 +18,6 @@
 }
 .person1 {
     background-image: url("images/person1.jpg");
-
 }
 .person2 {
     background-image: url("images/person2.jpg");
@@ -35,26 +34,26 @@
 .vk {
     background-position: -60px 30px;
     position: absolute;
-    right: 121px;
+    left: 8px;
     top: 4px;
 }
 .twitter {
     background-position: -30px 30px;
     position: absolute;
-    top: 30px;
+    top: 32px;
     left: -10px;
 }
 .fb {
-    background-position: 0px 30px;
+    background-position: 0 30px;
     position: absolute;
-    top: 60px;
+    top: 65px;
     left: -15px;
 }
 .sms {
     background-position: -90px 30px;
     position: absolute;
     bottom: -10px;
-    right: 60px;
+    right: 65px;
 }
 .vk:hover {
     background-position: -60px 60px;
@@ -63,7 +62,7 @@
     background-position: -30px 60px;
 }
 .fb:hover {
-    background-position: 0px 60px;
+    background-position: 0 60px;
 }
 .sms:hover {
     background-position: -90px 60px;
